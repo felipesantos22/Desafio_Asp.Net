@@ -6,11 +6,11 @@ namespace todo.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class UserController : ControllerBase
+public class AutorController : ControllerBase
 {
     private readonly AutorRepository _autorRepository;
 
-    public UserController(AutorRepository autorRepository)
+    public AutorController(AutorRepository autorRepository)
     {
         this._autorRepository = autorRepository;
     }

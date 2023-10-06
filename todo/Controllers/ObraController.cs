@@ -5,11 +5,11 @@ using todo.Models;
 namespace todo.Controllers;
 
 [Route("api/[controller]")]
-public class TaskController: ControllerBase
+public class ObraController: ControllerBase
 {
     private readonly DataContext _dataContext;
 
-    public TaskController(DataContext dataContext)
+    public ObraController(DataContext dataContext)
     {
         _dataContext = dataContext;
     }
